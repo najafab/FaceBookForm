@@ -1,0 +1,76 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.login {
+    width: 450px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login h1 {
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-form p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.login-inputs input {
+    padding: 12px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.Login-btn button {
+    width: 100%;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Login-btn button:hover {
+    background-color: rgba(0, 0, 255, 0.726);
+}
+
+.Forgt p {
+    font-size: 14px;
+    color: blue;
+    margin-top: 15px;
+}
+
+.Forgt a {
+    color: blue;
+    text-decoration: none;
+}
+
+.Forgt a:hover {
+    text-decoration: underline;
+}
